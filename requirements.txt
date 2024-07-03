@@ -1,0 +1,4 @@
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+Flask-JWT-Extended  # Add if you haven't already
