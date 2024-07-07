@@ -8,6 +8,7 @@ from models.place import Place
 from models.review import Review
 
 app = Flask(__name__)
+# Configure the Flask application to use SQLite database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///development.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
