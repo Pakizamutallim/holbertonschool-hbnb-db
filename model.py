@@ -9,4 +9,4 @@ class User(db.Model):
     updated_at = db.Column(db.DateTime, onupdate=db.func.current_timestamp())
 
     def __repr__(self):
-        return f'<User {self.email}>'
+        return f'<User {self.email}>' # String representation of the User object
