@@ -10,7 +10,7 @@ import secrets
 
 # Load environment variables from .env file
 load_dotenv()
-
+# Initialize Flask extensions
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 jwt = JWTManager()
